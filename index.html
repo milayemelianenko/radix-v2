@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" media="all" href="/src/animate.css" />
+    <script src="/src/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <title>.Store</title>
+  </head>
+  <body>
+    <header>
+      <picture>
+        <img
+          src="/image/header-logo.png"
+          alt="logo"
+          class="header-logo"
+          width="116"
+        />
+      </picture>
+      <button class="slot-btn" id="open-btn">Slot button</button>
+      <!-- <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div> -->
+      <section class="modals form-section-frame" id="form-section-frame">
+        <div class="form-section">
+          <img
+            src="/image/bg1.png"
+            alt="bg-element"
+            class="bg-element"
+            
+          />
+          <h3>Claim your .store</h3>
+          <a id="cancel-btn" class="cancel-btn">
+            <img
+              src="/image/cancel-btn.png"
+              alt="cancel-btn"
+              class="cancel-btn-icon"
+            />
+          </a>
+          <form>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" autocomplete="off" name="name" />
+            <label for="link">Your social media link</label>
+            <input
+              type="text"
+              id="link"
+              autocomplete="off"
+              name="social-link"
+            />
+            <label for="email">Your Email</label>
+            <input type="email" id="email" autocomplete="off" name="email" />
+            <input type="submit" class="submit-btn" value="Claim your .store" />
+          </form>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="main-section">
+        <div class="left-side">
+          <picture>
+            <img
+              src="/image/iphone.png"
+              class="fadeIn wow"
+              data-wow-delay="0.3s"
+              alt="iphone-img"
+              width="180"
+            />
+          </picture>
+        </div>
+        <div class="right-side">
+          <h2 class="fadeIn wow" data-wow-delay="0.3s">What is .store?</h2>
+          <p class="fadeIn wow" data-wow-delay="0.5s">
+            <span class="bold">.Store</span> is a new domain extension with an
+            aim to de-clutter the internet namespace in the retail industry.c If
+            the primary goal of your website is to sell, nothing says it better
+            than a .Store. Whether on a search engine listing or a print ad,
+            users know that a .Store is a place to buy from.
+          </p>
+        </div>
+      </section>
+
+      <section class="cards-section">
+        <h2 class="fadeIn wow" data-wow-delay="0.3s">Why choose .store?</h2>
+        <div class="cards-row">
+          <div class="first-card fadeIn wow" data-wow-delay="0.3s">
+            <picture class="card-icon">
+              <img src="/image/time-icon.png" alt="card-icon" width="48" />
+            </picture>
+
+            <h6>
+              Save time and
+              <br />
+              marketing dollars
+            </h6>
+            <p>
+              Find the perfect domain name quickly. Position your website as a
+              “store” without spending crazy marketing dollars.
+            </p>
+          </div>
+          <div class="second-card fadeIn wow" data-wow-delay="0.3s">
+            <img
+              src="/image/target-icon.png"
+              alt="card-icon"
+              class="card-icon"
+              width="48"
+            />
+            <h6>
+              Attract relevant
+              <br />
+              customers
+            </h6>
+            <p>
+              Be found on search engines. Every month, 192,500,000 Google
+              searches in the US contain the word “store” across 7,500,000
+              unique keywords.
+            </p>
+          </div>
+          <div class="fhird-card fadeIn wow" data-wow-delay="0.3s">
+            <img
+              src="/image/medal-icon.png"
+              alt="card-icon"
+              class="card-icon"
+              width="48"
+            />
+            <h6>
+              Build your
+              <br />
+              credibility
+            </h6>
+            <p>
+              Make a promise of credibility to your customers. We are 100%
+              committed to ensuring that all .Store domains are used
+              qualitatively.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="registrars">
+        <div>
+          <h2 class="fadeIn wow" data-wow-delay="0.3s">Our registrars</h2>
+        </div>
+
+        <div class="registrars-card">
+          <div class="logo-block fadeIn wow" data-wow-delay="0.6s">
+            <img src="/image/godaddy.png" alt="example-screen" width="282" />
+          </div>
+
+          <div class="logo-block fadeIn wow" data-wow-delay="0.6s">
+            <img src="/image/bluehost.png" alt="example-screen" width="282" />
+          </div>
+
+          <div class="logo-block fadeIn wow" data-wow-delay="0.6s">
+            <img src="/image/namecheap.png" alt="example-screen" width="282" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <img src="/image/logo.png" alt="logo" class="logo" width="96" />
+      <a href="#" class="footer-link">Privicy Policy</a>
+      <a href="#" class="footer-link">Terms & Conditions</a>
+      <p>© 2022 Radix. All rights reserved.</p>
+    </footer>
+    <script src="/src/index.js"></script>
+  </body>
+</html>
